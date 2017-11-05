@@ -47,6 +47,9 @@ class RegisterSearch extends Register
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'pagination'=>[
+                'pagesize'=>15
+            ]
         ]);
 
         $this->load($params);

@@ -67,6 +67,7 @@ class RegistersController extends Controller
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->number]);
+            //return $this->redirect('./line.php?message="เลขที่ออก '.$model->id.' - วันที่ '.$model->id.'"&token=l6HmQemPQyW8Qt1ZyNipjNuwLMf4zjlNjiGToKMoAv8');
         } else {
             return $this->render('create', [
                 'model' => $model,

@@ -1,8 +1,9 @@
 <?php
 
 use yii\helpers\Html;
-use yii\widgets\ActiveForm;
+//use yii\widgets\ActiveForm;
 use kartik\widgets\DatePicker;
+use kartik\widgets\ActiveForm;
 
 
 /* @var $this yii\web\View */
