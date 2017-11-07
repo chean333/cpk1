@@ -44,7 +44,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'mony',
             'register',
 
-            //['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn'],
             //หากจะให้สิทธิ์แก้ไชหรือลบข้อมูลได้ให้//เอาออกซะก็จะมีเมนูแก้ไชให้ออกมาโชว์
 
         ],
